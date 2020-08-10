@@ -191,13 +191,13 @@
             </a>
             <ul class="nav nav-treeview" style="display: block;">
               <li class="nav-item">
-                <a href="pertanyaan/create" class="nav-link">
+                <a href="pertanyaanbaru/create" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Buat Pertanyaan</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="/pertanyaan" class="nav-link">
+                <a href="/pertanyaanbaru" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Daftar Pertanyaan</p>
                 </a>

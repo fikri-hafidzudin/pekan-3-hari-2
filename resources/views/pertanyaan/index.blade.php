@@ -31,7 +31,7 @@
                     <td> {{$item -> isi}} </td>
                     <td style="display: flex;">
                         <a href="/pertanyaan/{{$item->id}}" class="btn btn-info btn-sm">show</a>
-                        <a href="/pertanyaan/{{$item->id}}/edit" class="btn btn-info btn-sm">edit</a>
+                        <a href="/pertanyaan/{{$item->id}}/edit" class="btn btn-info btn-sm mr-1 ml-1">edit</a>
                         <form action="/pertanyaan/{{$item->id}}" method="POST">
                         @csrf
                         @method('DELETE')
